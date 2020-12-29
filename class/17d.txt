@@ -1,0 +1,36 @@
+** 인증
+1.id,pw비교	> 사용자 id,pw입력 	-> 	/etc/passwd
+						/etc/shadow
+						/etc/group
+						/etc/gshadow
+2.권한부여(사용자,그룹)	> user rights,Permissions
+3.엑세스 토큰
+
+** 일반사용자 잠금
+	> 사용자의 기본 쉘을 /sbin/nologin으로 수정
+	> 쉘권한을 없애는 파일 경로	
+** bash shell $?
+	> 이전의 명령상태가 정상이면 0을 반환
+	> 이전의 명령상태가 비정상이면 1,127을 반환
+** 파일의 삭제권한을 얻기 위해서는 dir의 w권한을 얻어야 한다
+
+<명령어>
+useradd	[옵션]
+	-D
+	-p
+usermod	[옵션]
+	-aG 	group+user	사용자에게 추가그룹 지정
+
+passwd	[옵션]
+	-l(lock)		계정의 패스워드를 입력해서 비교하지 못하도록 잠금
+	-u(unlock)		잠김 패스워드를 다시 비교 할 수 있도록 함	
+gpasswd	[옵션]
+	-a	user+group	해당 유저를 해당 그룹에 추가하는 옵션
+	-d	user+group	해당 유저를 해당 그룹에서 제거하는 옵션
+
+groupadd
+
+openssl
+
+쉘종류?
+

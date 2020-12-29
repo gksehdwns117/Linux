@@ -1,0 +1,48 @@
+
+
+연산자	> 가산기(덧셈)
+DRAM	: 컴퓨터에 장착되어 있는 기본 메모리 
+	> 페이지(page) : 메모리를 나눈 최소 단위
+출력장치	: 연산의 결과를 메모리에 저장하다가 출력
+	> monitor 주출력장치
+	> graphic card ( HDMI , DVI , VGA )
+HDD
+(하드디스크) : 결과값을 저장하는 공간 , 보조기억장치
+입력장치	: 연산 할 연산자를 입력
+	> keyboard 주입력장치 / mouse 보조입력장치
+NIC	: Network interface card
+	> 네트워크상의 케이블전류(+,-)를 2진수로 바꿔주는 역할
+
+
+#소프트웨어
+os 	: 운영체제, 하드웨어에 기능을 부여함
+ISP	: 인터넷 서비스 제공자
+	ex. client -> isp <- 네이버
+
+#네트워크 연결장치 
+Router	: 길을 안내해주는 장치
+Switch	: 에이징 반도체(주문형 반도체)를 의해 전류의 흐름을 제어 ( on,off)
+	> 고급장비 : Cross, Straight 모두 가능
+	> 저급장비 : Straigth만 가능
+	> Switch와 연결된 장치는 모두 Straigth 케이블 사용
+	> Switch가 연결되지 않은 모든장치( ex.router - pc )는 모두 Crossover 케이블 사용
+	> Switch와 Switch 사이에는 crossover케이블 사용
+Hub	: 반도체가 존재하지 않아 전류의 흐름을 제어하지 못함
+	> CSMA/CD : 포트전송 알고리즘
+	> 기능의 차이는 있지만 케이블화 할때는 Switch와 같은 장비
+
+
+#서버
+랙 	:  서버 또는 네트워크 장비들을 넣어두는 철체 프레임이다. 데이터센터나 서버 룸과 같이 다수의 서버/네트워크 장	   비들을 두는 곳에서 사용한다
+랙마운트	:  서버를 랙에 보관
+1userver,2userver,4userver...
+블레이드서버 : 최대한 얇게 만든 서버 컴퓨터. 흔히 보는 랙마운트 서버를, 더 얇게 구성한 후, 케이스마저 제거해서 마치 	    	    보드 형태로 만든 것이라 보면 된다
+	> Hotswappable
+raid cotroller 	: 서버용 HDD
+		> scsi , sata , pata
+hba card	: 서버용 NIC
+xeon cpu	: 서버용 CPU
+
+
+
+

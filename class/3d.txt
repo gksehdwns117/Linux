@@ -1,0 +1,26 @@
+
+BIOS 칩 	- CMOS프로그램 (비휘발성 메모리)
+	:boot sequence(cdrom,usb)
+
+ios파일 > usb  : boot sector 생성 >
+
+	1.ios파일 다운로드 (공식사이트 > 미러사이트)
+	2.boottable usb : rufus.ie
+		https://github.com/pbatard/rufus/releases/download/v3.10/rufus-3.10p.exe
+	3.Make a bootable usb
+
+
+post 과정 : 컴퓨터 부팅 후 bios가 컴퓨터 주변장치를 검사하고 있는 과정
+
+
+vmware		
+virtualBox : www.virtualbox.org	가상화구현
+
+shift + windowkey + s	: 클립보드 복사
+
+
+192.168.108.3
+192.168.102.3
+
+
+https://www.edwith.org/
